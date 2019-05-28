@@ -309,8 +309,6 @@ static void *memcpy_pstore(void *dest, const void *src, size_t count)
 	return dest;
 }
 #endif
-
->>>>>>> 2efa4e571a88... add Xiaomi Redmi 4 Prime (Markw) compatibility
 static void notrace persistent_ram_update(struct persistent_ram_zone *prz,
 	const void *s, unsigned int start, unsigned int count)
 {
